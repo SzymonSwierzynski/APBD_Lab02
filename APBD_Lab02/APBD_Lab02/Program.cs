@@ -2,5 +2,5 @@
 
 String course = "APBD";
 String semester = "4";
-Console.WriteLine("Hello, " + course);
+Console.WriteLine("Hello, " + course + " semester: " + semester);
 
