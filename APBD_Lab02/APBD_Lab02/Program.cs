@@ -38,5 +38,15 @@ int CalculateMax(int[] values)
 
 int CalculateMin(int[] values)
 {
-    
+    int min = values[0];
+
+    foreach (var i in values)
+    {
+        if (i < min)
+        {
+            min = i;
+        }
+    }
+
+    return min;
 }
