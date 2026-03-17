@@ -14,3 +14,17 @@ double CalculateAverage(int[] values)
 
     return avg / values.Length;
 }
+
+int CalculateMax(int[] values)
+{
+    int max = values[0];
+    foreach (var i in values)
+    {
+        if (i > max)
+        {
+            max = i;
+        }
+    }
+
+    return max;
+}
