@@ -2,7 +2,7 @@
 
 String course = "APBD";
 String semester = "4";
-Console.WriteLine("Hello, " + course + " semester: " + semester + "???");
+Console.WriteLine("Hello, " + course + " semester: " + semester + "!!!");
 
 double CalculateAverage(int[] values)
 {
