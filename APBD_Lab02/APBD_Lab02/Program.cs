@@ -4,3 +4,13 @@ String course = "APBD";
 String semester = "4";
 Console.WriteLine("Hello, " + course + " semester: " + semester);
 
+double CalculateAverage(int[] values)
+{
+    double avg = 0;
+    for (int i = 0; i < values.Length; i++)
+    {
+        avg += values[i];
+    }
+
+    return avg / values.Length;
+}
